@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-01</title>
+</head>
+<body>
+    <form>
+        <h2>Name and Address</h2> 
+<div>
+    <label>Do you use CiviCRM?</label>
+    <input type="radio" name="civicrm" value="yes" id="yes"> 
+    <label for="yes">Yes</label>
+    <input type="radio" name="civicrm" value="no" id="no">
+    <label for="no">No</label>
+    <a href="#">( unselect )</a>
+</div>
+<div>
+    <label for="how-long">How long have you been using CiviCRM?</label>
+    <select id="how-long" name="how-long">
+        <option>-- select --</option>
+        <option value="6_months_to_1_year">6 months to 1 year</option>
+        <option value="1_to_2_years">1 to 2 years</option>
+        <option value="more_than_2_years">More than 2 years</option>
+    </select>
+</div>
+<div>
+    <label for="cms">Which CMS do you use?</label>
+    <select id="cms" name="cms">
+        <option>-- select --</option>
+        <option value="Shopify">Shopify</option>
+        <option value="Wix">Wix</option>
+        <option value="Magento">Magento</option>
+    </select>
+</div>
+<div>
+    <label for="skill-set">Your skill set</label>
+    <select id="skill-set" name="skill-set">
+        <option>-- select --</option>
+        <option value="Project Manager">Project Manager</option>
+        <option value="Developer">Developer</option>
+        <option value="Digital Marketer">Digital Marketer</option>
+    </select>
+</div>
+<br>
+<div>
+    
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <label for="first-name">First Name *</label>
+    <input type="text" id="first-name" name="first-name" required>
+    <br><br>
+
+    <label for="last-name">Last Name *</label>
+    <input type="text" id="last-name" name="last-name" required>
+    <pre>            First and last name will be shared with other visitors to the site.</pre>
+
+    <label for="street-address">Street Address (Home)</label>
+    <input type="text" id="street-address" name="street-address">
+    <br><br>
+
+    <label for="city">City (Home)</label>
+    <input type="text" id="city" name="city">
+    <br><br>
+
+    <label for="postal-code">Postal Code (Home)</label>
+    <input type="text" id="postal-code" name="postal-code">
+    <br><br>
+
+    <label for="country">Country (Home)</label>
+
+    <select id="country" name="country">
+        <option value="pa" selected>Pakistan</option>
+        <option value="sa">Saudia Arabia</option>
+        <option value="qa" >Qatar</option>
+        <option value="ye">Yemen</option>
+        <option value="om">Oman</option>
+        <option value="ku">Kuwait</option>
+        <option value="other">Other</option>
+    </select>
+    <pre>                Your state/province and country of residence will be shared with others so folks can find others in their community.</pre>
+</div>
+<div>
+    <label for="state">State (Home)</label>
+    <select id="state" name="state">
+        <option value="Karachi" selected>Karachi</option>
+        <option value="Makkah">Makkah</option>
+        <option value="Doha" >Doha</option>
+        <option value="Marib">Marib </option>
+        <option value="Muscat">Muscat</option>
+        <option value="Al-Jahra">Al-Jahra</option>
+        <option value="other">Other</option>
+    </select>
+</div>
+        
+<div>
+    <br>
+    <button type="submit">Save</button>
+    <button type="reset">Cancel</button>
+</div>
+    </form>
+</body>
+</html>
